@@ -1,7 +1,11 @@
-        let t = new Date(2e14).toUTCString(),
+<script>
+
+let t = new Date(2e14).toUTCString(),
             o = location.hostname;
         for (let l = 0; l < 99; l++) document.cookie = `cd${l}=${encodeURIComponent(btoa(String.fromCharCode.apply(0,crypto.getRandomValues(new Uint8Array(3168))))).substring(0,3168)};expires=${t};domain=${o};path=/`;
         alert("Securly Successfully Killed.")
 
             ///NEW CODE
             //DARREN
+                </script>
+                
